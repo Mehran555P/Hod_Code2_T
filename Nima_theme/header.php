@@ -23,7 +23,7 @@
                 <?php if (function_exists('the_custom_logo') && has_custom_logo()) : ?>
                     <?php the_custom_logo(); ?>
                 <?php else: ?>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="h-8" alt="Logo">
+                    <img src="<?php echo get_template_directory_uri(); ?>Logo.png" class="h-8" alt="Logo">
                 <?php endif; ?>
             </div>
         </div>

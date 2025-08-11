@@ -13,7 +13,7 @@
 
     <!-- Products Grid -->
     <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        <?php for ($i = 0; $i < 6; $i++): ?>
+        <?php for ($i = 0; $i < 9; $i++): ?>
             <div class="bg-white shadow rounded-lg overflow-hidden">
                 <img src="<?php echo get_template_directory_uri(); ?>/product.png" class="w-full h-48 object-cover" alt="Product">
                 <div class="p-4 space-y-2">
